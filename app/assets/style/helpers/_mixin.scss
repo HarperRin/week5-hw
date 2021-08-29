@@ -1,0 +1,9 @@
+@mixin image-replace-text{
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@mixin box-size($w, $h){
+  width: $w;
+  height: $h;
+}
