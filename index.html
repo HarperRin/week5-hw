@@ -1,10 +1,89 @@
----
-title: Assignment
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <div class="nav-side bg-light d-flex flex-column justify-content-between py-11">
+    <div class="nav-select">
+      <h1 class="logo mb-9 ms-11">
+        <a href="#">ANSWER</a>
+      </h1>
+      <nav>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="d-flex nav-link nav-side-link fw-bold fs-6 pt-5 pb-5 ps-11" aria-current="page" href="#">
+              <span class="nav-icon material-icons pe-7">
+                assessment
+              </span>
+              Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="d-flex nav-link nav-side-link fw-bold fs-6 pt-5 pb-5 ps-11" aria-current="page" href="#">
+              <span class="nav-icon material-icons pe-7">
+                question_answer
+              </span>
+              Question
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="d-flex nav-link nav-side-link active fw-bold fs-6 pt-5 pb-5 ps-11" aria-current="page" href="index.html">
+              <span class="nav-icon material-icons pe-7">
+                assignment
+              </span>
+              Assignment
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="d-flex nav-link nav-side-link fw-bold fs-6 pt-5 pb-5 ps-11" aria-current="page" href="#">
+              <span class="nav-icon material-icons pe-7">
+                video_library
+              </span>
+              Course
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="d-flex nav-link nav-side-link fw-bold fs-6 pt-5 pb-5 ps-11" aria-current="page" href="#">
+              <span class="nav-icon material-icons pe-7">
+                supervisor_account
+              </span>
+              Admin
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="d-flex nav-link nav-side-link fw-bold fs-6 pt-5 pb-5 ps-11" aria-current="page" href="#">
+              <span class="nav-icon material-icons pe-7">
+                settings
+              </span>
+              Settings
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="d-flex align-items-center ms-11">
+      <div class="flex-shrink-0">
+        <img src="./assets/images/andychen.jpeg" class="profile-pic rounded-circle" alt="profile-pic">
+      </div>
+      <div class="flex-grow-1 ms-3">
+        <h6 class="profile-name mb-2 fw-bold">Andy Chen</h6>
+        <a href="mailto:andy0401@mail.com"><p class="fs-7 m-0 text-secondary">andy0401@mail.com</p></a>
+      </div>
+    </div>
+  </div>
+
+  
 <main class="assignment mb-11">
     <div class="main-header mx-11">
         <nav class="navbar navbar-expand-lg py-11 align-items-center">
@@ -234,3 +313,9 @@ current: index
         </div>
     </div>
 </main>
+  <script src="https://cdn.ckeditor.com/ckeditor5/29.1.0/classic/ckeditor.js"></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
